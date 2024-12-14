@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced File Extractor Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Advanced File Extractor</h1>
+    <p>Upload your archive files (.zip) to extract them easily.</p>
+    <input type="file" id="fileInput" accept=".zip" />
+    <button id="extractButton" disabled>Extract Files</button>
+  </div>
+
+  <div class="file-container" id="fileList"></div>
+
+  <footer>
+    Built by <a href="#">Codiify</a>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
